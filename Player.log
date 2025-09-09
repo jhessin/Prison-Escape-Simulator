@@ -23,7 +23,7 @@ Using Windows.Gaming.Input
 Input System polling thread started.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.770100 ms
+UnloadTime: 3.212800 ms
 <color=green>[CameraManager]</color> Initialized
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.Logger:Log(LogType, Object)
@@ -162,9 +162,23 @@ UnityEngine.WorkRequest:Invoke()
 UnityEngine.UnitySynchronizationContext:Exec()
 
 Joystick connected ("Controller (XBOX 360 For Windows)").
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> LOCAL SAVE PREPARED! | SAVE DATE: 1/1/0001 12:00:00 AM
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameSerializationSystem:CreateNewSave()
+<>c__DisplayClass7_0:<StartGame>g__HandleGameStart|1(Int32)
+NewGameMenuUI:StartGame(Int32)
+UnityEngine.Events.UnityEvent:Invoke()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 12592.
-Total: 7.334100 ms (FindLiveObjects: 0.784600 ms CreateObjectMapping: 0.163200 ms MarkObjects: 6.371600 ms  DeleteObjects: 0.014500 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 9405.
+Total: 6.702400 ms (FindLiveObjects: 0.586500 ms CreateObjectMapping: 0.144100 ms MarkObjects: 5.954600 ms  DeleteObjects: 0.017000 ms)
 
 <color=green>[GameTimeManager]</color> Initialized
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -216,6 +230,359 @@ System.Runtime.CompilerServices.MoveNextRunner:Run()
 UnityEngine.WorkRequest:Invoke()
 UnityEngine.UnitySynchronizationContext:Exec()
 
+Can't add 'Outline' to EnvelopeDirty because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to ChairObject because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (1) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (2) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (3) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (5) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (4) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to Glass because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Can't add 'Outline' to ItemTable because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Can't add 'Outline' to Bed because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to DirtMoundObject because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to BaseToilet because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to DirtMoundObject because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to door because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to PolicemanNpc because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to Paper because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Can't add 'Outline' to SellingObjectParent because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+"ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+PrisonerNpc:ResetPrisoner()
+PrisonBuilding:ResetPrison(Boolean)
+<>c__DisplayClass25_0:<HandlePlayerGameOver>b__0()
+<>c__DisplayClass11_0:<HandleLoad>b__0()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+[ line -1099962328]
+
+"ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+PrisonerNpc:ResetPrisoner()
+PrisonBuilding:ResetPrison(Boolean)
+<>c__DisplayClass25_0:<HandlePlayerGameOver>b__0()
+<>c__DisplayClass11_0:<HandleLoad>b__0()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+[ line -1099962328]
+
+"ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+PrisonerNpc:ResetPrisoner()
+PrisonBuilding:ResetPrison(Boolean)
+<>c__DisplayClass25_0:<HandlePlayerGameOver>b__0()
+<>c__DisplayClass11_0:<HandleLoad>b__0()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+[ line -1099962328]
+
+"ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+PrisonerNpc:ResetPrisoner()
+PrisonBuilding:ResetPrison(Boolean)
+<>c__DisplayClass25_0:<HandlePlayerGameOver>b__0()
+<>c__DisplayClass11_0:<HandleLoad>b__0()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+[ line -1099962328]
+
+"ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+PrisonerNpc:ResetPrisoner()
+PrisonBuilding:ResetPrison(Boolean)
+<>c__DisplayClass25_0:<HandlePlayerGameOver>b__0()
+<>c__DisplayClass11_0:<HandleLoad>b__0()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+[ line -1099962328]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
 <color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.Logger:Log(LogType, Object)
@@ -252,10 +619,662 @@ System.Runtime.CompilerServices.MoveNextRunner:Run()
 UnityEngine.WorkRequest:Invoke()
 UnityEngine.UnitySynchronizationContext:Exec()
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 14)
-UnloadTime: 7.886400 ms
-Unloading 1374 unused Assets to reduce memory usage. Loaded Objects now: 9462.
-Total: 19.382900 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.134100 ms MarkObjects: 5.557000 ms  DeleteObjects: 13.434500 ms)
+KEY Press DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+KEY Close DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+KEY Press DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+KEY Close DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+KEY Press DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+KEY Close DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+KEY Press DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+KEY Close DOES NOT EXISTS!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:GetLocalizedString(String)
+BenchPressScreenUI:UpdateInputsText()
+BenchPressScreenUI:EnableBenchPressScreen(BenchPressObject)
+BenchPressObject:HandleBenchPressUse()
+BaseInteractableObject:PerformInteraction(CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers:InvokeCallbacksSafe(CallbackArray`1&, TValue, String, Object)
+UnityEngine.InputSystem.InputActionState:CallActionListeners(Int32, InputActionMap, InputActionPhase, CallbackArray`1&, String)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfActionInternal(Int32, TriggerState*, InputActionPhase, TriggerState&, Boolean)
+UnityEngine.InputSystem.InputActionState:ChangePhaseOfAction(InputActionPhase, TriggerState&, InputActionPhase)
+UnityEngine.InputSystem.InputActionState:ProcessDefaultInteraction(TriggerState&, Int32)
+UnityEngine.InputSystem.InputActionState:ProcessControlStateChange(Int32, Int32, Int32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputActionState:UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged(InputControl, Double, InputEventPtr, Int64)
+UnityEngine.InputSystem.InputManager:FireStateChangeNotifications(Int32, Double, InputEvent*)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputUpdateType, Void*, UInt32, UInt32, Double, InputEventPtr)
+UnityEngine.InputSystem.InputManager:UpdateState(InputDevice, InputEvent*, InputUpdateType)
+UnityEngine.InputSystem.InputManager:OnUpdate(InputUpdateType, InputEventBuffer&)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 18)
+UnloadTime: 9.828900 ms
+Unloading 1315 unused Assets to reduce memory usage. Loaded Objects now: 9553.
+Total: 26.350400 ms (FindLiveObjects: 0.431100 ms CreateObjectMapping: 0.157100 ms MarkObjects: 8.546800 ms  DeleteObjects: 17.215200 ms)
 
 <color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null (Void ThrowNullReferenceException(System.Object)) ► Object reference not set to an instance of an object.
 
@@ -435,9 +1454,1113 @@ System.Runtime.CompilerServices.MoveNextRunner:Run()
 UnityEngine.WorkRequest:Invoke()
 UnityEngine.UnitySynchronizationContext:Exec()
 
-<color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 3 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
-- 2 missing target or field errors
-- 1 startup errors
+Unloading 4 Unused Serialized files (Serialized files now loaded: 3)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 16301.
+Total: 7.640200 ms (FindLiveObjects: 0.625500 ms CreateObjectMapping: 0.280000 ms MarkObjects: 6.718500 ms  DeleteObjects: 0.016100 ms)
+
+<color=green>[GameTimeManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[EntitiesManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[PlayerManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[EnvironmentManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[TutorialManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 13)
+UnloadTime: 6.892700 ms
+Unloading 1260 unused Assets to reduce memory usage. Loaded Objects now: 9545.
+Total: 16.967900 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.125800 ms MarkObjects: 6.256800 ms  DeleteObjects: 10.329300 ms)
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null (Void ThrowNullReferenceException(System.Object)) ► Object reference not set to an instance of an object.
+
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass46_0.<DOScaleX>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Plugins.Vector3Plugin.EvaluateAndApply (DG.Tweening.Plugins.Options.VectorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Vector3 startValue, UnityEngine.Vector3 changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.Tween t, System.Single deltaTime, System.Single independentTime, System.Boolean isSingleTweenManualUpdate) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.UpdateType updateType, System.Single deltaTime, System.Single independentTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.DOTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.TweenerCore`3:ApplyTween(Single, Int32, Int32, Boolean, UpdateMode, UpdateNotice)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null (Void ThrowNullReferenceException(System.Object)) ► Object reference not set to an instance of an object.
+
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass46_0.<DOScaleX>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Plugins.Vector3Plugin.EvaluateAndApply (DG.Tweening.Plugins.Options.VectorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Vector3 startValue, UnityEngine.Vector3 changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.Tween t, System.Single deltaTime, System.Single independentTime, System.Boolean isSingleTweenManualUpdate) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.UpdateType updateType, System.Single deltaTime, System.Single independentTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.DOTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.TweenerCore`3:ApplyTween(Single, Int32, Int32, Boolean, UpdateMode, UpdateNotice)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - Void ThrowNullReferenceException(System.Object)): the tween will now be killed ► Object reference not set to an instance of an object.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Tweener:DoStartup(TweenerCore`3)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=green>[CameraManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[UiManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[PlayerInputSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[GameQualityManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[GameSerializationSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[LocalizationSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+INITIALIZED LOCALIZATION | LANGUAGE English | KEYS COUNT: 581
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:InitializeLocalization(SystemLanguage)
+<Initialize>d__14:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<Initialize>d__4:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[MainMenuCanvas]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[ResourcesSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[AudioManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[AchievementManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> LOCAL SAVE PREPARED! | SAVE DATE: 01/01/0001 00:00:00
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GameSerializationSystem:CreateNewSave()
+<>c__DisplayClass7_0:<StartGame>g__HandleGameStart|1(Int32)
+UnityEngine.Events.UnityEvent:Invoke()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback, Tween)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 3)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 9554.
+Total: 7.144000 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.102000 ms MarkObjects: 6.771300 ms  DeleteObjects: 0.018300 ms)
+
+<color=green>[GameTimeManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[EntitiesManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[PlayerManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[EnvironmentManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[TutorialManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Can't add 'Outline' to EnvelopeDirty because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to ChairObject because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (1) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (3) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (2) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (4) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to FloorTile (5) because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to ChairObject because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to Glass because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Can't add 'Outline' to ItemTable because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Can't add 'Outline' to Bed because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to DirtMoundObject because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to BaseToilet because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to DirtMoundObject because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to door because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to PolicemanNpc because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+Can't add 'Outline' to Paper because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+InteractionHandler:OutlineInteractableObject(Transform)
+InteractionHandler:CheckForInteraction()
+InteractionHandler:Update()
+
+[ line -1099962072]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Can't add 'Outline' to SellingObjectParent because a 'Outline' is already added to the game object!
+UnityEngine.GameObject:Internal_AddComponentWithType(Type)
+UnityEngine.GameObject:AddComponent()
+<<OnObjectiveStarted>g__HandleOutline|13_0>d:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[ line -1099961784]
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 18)
+UnloadTime: 4.335300 ms
+Unloading 1313 unused Assets to reduce memory usage. Loaded Objects now: 9555.
+Total: 19.913200 ms (FindLiveObjects: 0.294500 ms CreateObjectMapping: 0.195900 ms MarkObjects: 6.487900 ms  DeleteObjects: 12.934700 ms)
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null (Void ThrowNullReferenceException(System.Object)) ► Object reference not set to an instance of an object.
+
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass46_0.<DOScaleX>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Plugins.Vector3Plugin.EvaluateAndApply (DG.Tweening.Plugins.Options.VectorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Vector3 startValue, UnityEngine.Vector3 changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.Tween t, System.Single deltaTime, System.Single independentTime, System.Boolean isSingleTweenManualUpdate) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.UpdateType updateType, System.Single deltaTime, System.Single independentTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.DOTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.TweenerCore`3:ApplyTween(Single, Int32, Int32, Boolean, UpdateMode, UpdateNotice)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null (Void ThrowNullReferenceException(System.Object)) ► Object reference not set to an instance of an object.
+
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass46_0.<DOScaleX>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Plugins.Vector3Plugin.EvaluateAndApply (DG.Tweening.Plugins.Options.VectorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Vector3 startValue, UnityEngine.Vector3 changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.Tween t, System.Single deltaTime, System.Single independentTime, System.Boolean isSingleTweenManualUpdate) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.UpdateType updateType, System.Single deltaTime, System.Single independentTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.Core.DOTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Core.TweenerCore`3:ApplyTween(Single, Int32, Int32, Boolean, UpdateMode, UpdateNotice)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - Void ThrowNullReferenceException(System.Object)): the tween will now be killed ► Object reference not set to an instance of an object.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Tweener:DoStartup(TweenerCore`3)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=green>[CameraManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[UiManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[PlayerInputSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[GameQualityManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[GameSerializationSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[LocalizationSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+INITIALIZED LOCALIZATION | LANGUAGE English | KEYS COUNT: 581
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:InitializeLocalization(SystemLanguage)
+<Initialize>d__14:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<Initialize>d__4:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[MainMenuCanvas]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[ResourcesSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[AudioManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[AchievementManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 3)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 12734.
+Total: 6.972100 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.190100 ms MarkObjects: 6.374700 ms  DeleteObjects: 0.013300 ms)
+
+<color=green>[GameTimeManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[EntitiesManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[PlayerManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[EnvironmentManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[TutorialManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<SaveData>d__21:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<SaveData>d__15:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 13)
+UnloadTime: 5.385700 ms
+Unloading 1266 unused Assets to reduce memory usage. Loaded Objects now: 9545.
+Total: 16.707300 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.126300 ms MarkObjects: 6.333900 ms  DeleteObjects: 9.987400 ms)
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - Void ThrowNullReferenceException(System.Object)): the tween will now be killed ► Object reference not set to an instance of an object.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Tweener:DoStartup(TweenerCore`3)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - Void ThrowNullReferenceException(System.Object)): the tween will now be killed ► Object reference not set to an instance of an object.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Tweener:DoStartup(TweenerCore`3)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - Void ThrowNullReferenceException(System.Object)): the tween will now be killed ► Object reference not set to an instance of an object.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+DG.Tweening.Tweener:DoStartup(TweenerCore`3)
+DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+
+<color=green>[CameraManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[UiManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[PlayerInputSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[GameQualityManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[GameSerializationSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[LocalizationSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+INITIALIZED LOCALIZATION | LANGUAGE English | KEYS COUNT: 581
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem:InitializeLocalization(SystemLanguage)
+<Initialize>d__14:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<Initialize>d__4:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task`1:TrySetResult(TResult)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[MainMenuCanvas]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[ResourcesSystem]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[AudioManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=green>[AchievementManager]</color> Initialized
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Initialize>d__6:MoveNext()
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+
+<color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 12 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 6 missing target or field errors
+- 6 startup errors
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
