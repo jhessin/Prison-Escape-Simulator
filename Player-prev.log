@@ -23,7 +23,7 @@ Using Windows.Gaming.Input
 Input System polling thread started.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.971500 ms
+UnloadTime: 2.770100 ms
 <color=green>[CameraManager]</color> Initialized
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.Logger:Log(LogType, Object)
@@ -163,8 +163,8 @@ UnityEngine.UnitySynchronizationContext:Exec()
 
 Joystick connected ("Controller (XBOX 360 For Windows)").
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 12593.
-Total: 6.396700 ms (FindLiveObjects: 0.860800 ms CreateObjectMapping: 0.222000 ms MarkObjects: 5.297500 ms  DeleteObjects: 0.016100 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 12592.
+Total: 7.334100 ms (FindLiveObjects: 0.784600 ms CreateObjectMapping: 0.163200 ms MarkObjects: 6.371600 ms  DeleteObjects: 0.014500 ms)
 
 <color=green>[GameTimeManager]</color> Initialized
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
@@ -252,55 +252,16 @@ System.Runtime.CompilerServices.MoveNextRunner:Run()
 UnityEngine.WorkRequest:Invoke()
 UnityEngine.UnitySynchronizationContext:Exec()
 
-<color=#FFFFFF>[GAME SERIALIZATION SYSTEM]:</color> SAVED
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<SaveData>d__21:MoveNext()
-System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
-System.Runtime.CompilerServices.MoveNextRunner:Run()
-System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
-System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
-System.Threading.Tasks.Task:FinishContinuations()
-System.Threading.Tasks.Task`1:TrySetResult(TResult)
-System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
-<SaveData>d__15:MoveNext()
-System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
-System.Runtime.CompilerServices.MoveNextRunner:Run()
-UnityEngine.WorkRequest:Invoke()
-UnityEngine.UnitySynchronizationContext:Exec()
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 19)
-UnloadTime: 7.765400 ms
-Unloading 1422 unused Assets to reduce memory usage. Loaded Objects now: 9469.
-Total: 23.431400 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.138200 ms MarkObjects: 5.764300 ms  DeleteObjects: 17.245700 ms)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null (Void ThrowNullReferenceException(System.Object)) ► Object reference not set to an instance of an object.
-
-  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.Transform.set_localRotation (UnityEngine.Quaternion value) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass42_0.<DOLocalRotate>b__1 (UnityEngine.Quaternion x) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Plugins.QuaternionPlugin.EvaluateAndApply (DG.Tweening.Plugins.Options.QuaternionOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Vector3 startValue, UnityEngine.Vector3 changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.Tween t, System.Single deltaTime, System.Single independentTime, System.Boolean isSingleTweenManualUpdate) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.TweenManager.Update (DG.Tweening.UpdateType updateType, System.Single deltaTime, System.Single independentTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.Core.DOTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
-
-UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.TweenerCore`3:ApplyTween(Single, Int32, Int32, Boolean, UpdateMode, UpdateNotice)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(Tween, Single, Single, Boolean)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
+Unloading 6 Unused Serialized files (Serialized files now loaded: 14)
+UnloadTime: 7.886400 ms
+Unloading 1374 unused Assets to reduce memory usage. Loaded Objects now: 9462.
+Total: 19.382900 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.134100 ms MarkObjects: 5.557000 ms  DeleteObjects: 13.434500 ms)
 
 <color=#0099bc><b>DOTWEEN ► </b></color>Target or field is missing/null (Void ThrowNullReferenceException(System.Object)) ► Object reference not set to an instance of an object.
 
   at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
   at UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass48_0.<DOScaleZ>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass46_0.<DOScaleX>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
   at DG.Tweening.Plugins.Vector3Plugin.EvaluateAndApply (DG.Tweening.Plugins.Options.VectorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Vector3 startValue, UnityEngine.Vector3 changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
   at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
   at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
@@ -321,7 +282,7 @@ DG.Tweening.Core.DOTweenComponent:Update()
 
   at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
   at UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) [0x00000] in <00000000000000000000000000000000>:0 
-  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass48_0.<DOScaleZ>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
+  at DG.Tweening.ShortcutExtensions+<>c__DisplayClass46_0.<DOScaleX>b__1 (UnityEngine.Vector3 x) [0x00000] in <00000000000000000000000000000000>:0 
   at DG.Tweening.Plugins.Vector3Plugin.EvaluateAndApply (DG.Tweening.Plugins.Options.VectorOptions options, DG.Tweening.Tween t, System.Boolean isRelative, DG.Tweening.Core.DOGetter`1[T] getter, DG.Tweening.Core.DOSetter`1[T] setter, System.Single elapsed, UnityEngine.Vector3 startValue, UnityEngine.Vector3 changeValue, System.Single duration, System.Boolean usingInversePosition, System.Int32 newCompletedSteps, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
   at DG.Tweening.Core.TweenerCore`3[T1,T2,TPlugOptions].ApplyTween (System.Single prevPosition, System.Int32 prevCompletedLoops, System.Int32 newCompletedSteps, System.Boolean useInversePosition, DG.Tweening.Core.Enums.UpdateMode updateMode, DG.Tweening.Core.Enums.UpdateNotice updateNotice) [0x00000] in <00000000000000000000000000000000>:0 
   at DG.Tweening.Tween.DoGoto (DG.Tweening.Tween t, System.Single toPosition, System.Int32 toCompletedLoops, DG.Tweening.Core.Enums.UpdateMode updateMode) [0x00000] in <00000000000000000000000000000000>:0 
@@ -474,8 +435,8 @@ System.Runtime.CompilerServices.MoveNextRunner:Run()
 UnityEngine.WorkRequest:Invoke()
 UnityEngine.UnitySynchronizationContext:Exec()
 
-<color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 4 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
-- 3 missing target or field errors
+<color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 3 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 2 missing target or field errors
 - 1 startup errors
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.Logger:Log(LogType, Object)
